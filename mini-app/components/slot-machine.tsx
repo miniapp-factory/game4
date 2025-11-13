@@ -45,7 +45,6 @@ export default function SlotMachine() {
       {rolled && (
         <Share
           text={`I just rolled a ${current.name}! Check it out: ${url}`}
-          url={url}
         />
       )}
     </div>
